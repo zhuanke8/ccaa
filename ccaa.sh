@@ -177,7 +177,7 @@ function setting(){
 	fi
 
 	#获取ip
-	osip=$(curl -4s https://api.ip.sb/ip)
+	osip=$(curl -4s ip.sb)
 	
 	#执行替换操作
 	mkdir -p ${downpath}
